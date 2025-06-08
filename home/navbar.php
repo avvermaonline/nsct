@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-1">
-                    <a class="nav-link <?= ($current_page === 'index') ? 'active' : '' ?> px-3 py-2 rounded-pill" href="index.php" 
+                    <a class="nav-link <?= ($current_page === 'index') ? 'active' : '' ?> px-3 py-2 rounded-pill" href="../index.php" 
                        style="transition: all 0.3s ease;">Home</a>
                 </li>
                 <li class="nav-item mx-1">
