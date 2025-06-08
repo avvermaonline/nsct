@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['user_id'])) {
-    header('Location: dashboard.php');
+    header('Location: home/member/dashboard.php');
     exit();
 }
 
@@ -355,7 +355,7 @@ include 'home/navbar.php';
     </div>
 </section>
 
-<?php include 'footer.php'; ?>
+<?php include 'home/footer.php'; ?>
 
 <!-- Bootstrap JS Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
