@@ -10,9 +10,9 @@ $current_page = 'index';
 $page_title = 'NSCT - नन्दवंशी सेल्फ केयर टीम';
 
 // Include header
-include '../home/header.php';
+include 'header.php';
 // Include navbar
-include '../home/navbar.php';
+include 'navbar.php';
 ?>
 
 <style>
